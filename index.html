@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nutricionista</title>
+</head>
+<body>
+
+    <nav>
+        <div>
+            <h2>Nutricionista</h2>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 id="titulo">Meus Pacientes</h1>
+
+        <table id="tabela">
+            <tr class="categorias">
+                <td>Nome</td>
+                <td>Peso (kg)</td>
+                <td>Altura (m)</td>
+                <td>Gordura Corporal (%)</td>
+                <td>IMC</td>
+                <td>Estado</td>
+            </tr class="categorias">
+            <tr>
+                <td>João</td>
+                <td>90</td>
+                <td>1.85</td>
+                <td>21</td>
+                <td>26.32</td>
+                <td class="peso-acima">Sobrepeso</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>75</td>
+                <td>1.78</td>
+                <td>15</td>
+                <td>23.76</td>
+                <td class="peso-normal">Peso Normal</td>
+            </tr>
+            <tr>
+                <td>Julia</td>
+                <td>60</td>
+                <td>1.7</td>
+                <td>8</td>
+                <td>20.85</td>
+                <td class="peso-normal">Peso Normal</td>
+            </tr>
+           
+        </table>
+
+        <div class="formulario-paciente">
+            <label for="">Nome</label>
+            <input type="text" id="nome-paciente" placeholder="Digite o nome do paciente">
+    
+            <label for="">Peso (kg)</label>
+            <input type="text" id="peso-paciente" placeholder="Digite o peso do paciente">
+    
+            <label for="">Altura (m)</label>
+            <input type="text" id="altura-paciente" placeholder="Digite a altura do paciente">
+    
+            <label for="">Gordura (%)</label>
+            <input type="text" id="gordura-paciente" placeholder="Digite a gordura do paciente">
+        </div>
+        
+        <h1 class="mensagem-erro">Todos os campos devem ser preenchidos</h1>
+        <button id="btn-adiciona" onclick="adicionaPaciente()">Adicionar Paciente</button>
+
+
+    </div>  
+    
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
