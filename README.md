@@ -2,9 +2,9 @@
 
 <p align="center">Site para registro de pacientes e seus respectivos indíces IMC</p>
 
-<h4 align="center"> 
+<h2 align="center"> 
 	Concluído 🟢
-</h4>
+</h2>
 
 ### Features
 
@@ -13,10 +13,14 @@
 - [x] Validação dos dados cadastrados
 - [x] Classificação do estado do paciente de acordo com o IMC
 
-<img src="img/nutricionista.gif" alt="">
+<h2> 
+	Demonstração do projeto
+</h2>
+<img src="img/nutricionista.gif" alt="Demonstração do projeto">
 
-
-### 🛠 Tecnologias
+<h2> 
+	 🛠 Tecnologias
+</h2>
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
