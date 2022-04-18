@@ -14,7 +14,7 @@
 - [x] Classificação do estado do paciente de acordo com o IMC
 
 <h1 align="center">
-  <img src="img/nutricionista.gif" />
+    <img alt="Demonstração do Projeto" src="./img/nutricionista.gif" />
 </h1>
 
 ### 🛠 Tecnologias
