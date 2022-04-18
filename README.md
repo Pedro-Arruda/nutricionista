@@ -28,4 +28,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - CSS
 - JavasCript
 
+## 👦 Autor
 
+Feito por Pedro Arruda 👋 [Entre em contato!](https://www.linkedin.com/in/pedro-scucuglia-arruda-330132238/)
