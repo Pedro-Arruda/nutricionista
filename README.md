@@ -13,9 +13,8 @@
 - [x] Validação dos dados cadastrados
 - [x] Classificação do estado do paciente de acordo com o IMC
 
-<h1 align="center">
-    <img alt="Demonstração do Projeto" src="./img/nutricionista.gif" />
-</h1>
+<img src="img/nutricionista.gif" alt="">
+
 
 ### 🛠 Tecnologias
 
